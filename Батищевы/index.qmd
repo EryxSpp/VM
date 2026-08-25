@@ -6,7 +6,7 @@ title: "Батищевы"
 %%| fig-width: 30%
 
 flowchart TD
- AF@{ icon: "fa:user", form: "square", label: "Василий Иванович Батищев", pos: "t", h: 60 }
+ AF@{ icon: "fa:user", form: "square", label: "Василий Иванович Батищев", pos: "t", h: 40 }
   A[\Василий Иванович Батищев/] --"Брак" --> B(Антонина Яковлевна Батищева)
   T1([?]) --> A
   T2([Сургучевы]) --> B
