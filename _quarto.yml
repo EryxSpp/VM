@@ -3,7 +3,7 @@ project:
   output-dir: docs
   preview:
     port: 4200
-    browser: false
+  #  browser: false
   render:
     - "*.qmd"
 website:
