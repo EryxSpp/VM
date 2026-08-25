@@ -15,25 +15,10 @@ title: Василий Иванович Батищев
        [Надежда Васильевна Ясинчук (Батищева) (1946)](/Батищевы/Надежда_Васильевна/index.md)
 :Генеалогическое древо: [Батищевы](/Батищевы/index.md)
 ----
-::: {subfigure} AB|CD
-:layout-sm: A|B|C|D
-:layout-lg: AB|CD
-:layout-xl: ABD|.C.
-:layout-xxl: ABCD
-:align: center
-:gap: 4px
-:subcaptions: below
-:class-grid: outline
+![](batischevvasiv-3.jpg) ![](batischevvasiv-2.jpg) ![](batischevvasiv-4.jpg) ![](batischevvasiv-1.jpg)
 
-![](batischevvasiv-3.jpg)
-![](batischevvasiv-2.jpg)
-![](batischevvasiv-4.jpg)
-![](batischevvasiv-1.jpg)
-
-Василий Иванович Батищев
-:::
 ----
-:Награды:
+<!-- :Награды:
 :::::{grid} 1 1 2 3
 ::::{card}
 Медаль\
@@ -118,4 +103,4 @@ title: Василий Иванович Батищев
 +++
 [Память народа](https://pamyat-naroda.ru/heroes/podvig-nagrada_kartoteka1005437533/)
 ::::
-:::::
+::::: -->
