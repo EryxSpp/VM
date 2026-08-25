@@ -1,0 +1,12 @@
+﻿img { 
+    margin-left:0.5em;
+    margin-right:0.5em;
+    border-radius: 10px;
+    margin: 10px;
+}
+.wine {
+    background-image: /_static/images/awards/redVelur.png; !important
+    background-color: transparent;
+    padding: 1em;
+}
+.bg-purple{--bs-bg-opacity:1;background-color:rgba(var(--bs-teal),var(--bs-bg-opacity))!important}

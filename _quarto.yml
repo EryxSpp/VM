@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+website:
+  title: "Записки домашнего родослова"
+  # subtitle: "Возвращая из забвения, дарю бессмертие…"
+  # author: "Владислав Веденеев"
+  favicon: _static/favicon.ico
+  page-footer:
+    right: "Copyright 2026, Владислав Веденеев"   
+    background: light
+  # navbar:
+  #   left:
+  #   - href: index.qmd
+  #     text: Введение
+  #     - href: Батищевы/index.qmd
+  #       text: Батищевы
+#      - about.qmd
+  sidebar:
+    style: floating
+    background: light
+    contents:
+      - index.qmd 
+      # - part: "Фамилии"
+      #   href: 
+      - fn.qmd
+        # contents:
+        # - Батищевы/index.qmd
+
+format:
+  html:
+    default-image-extension: png
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    page-layout: full
+    code-fold: show
+    mermaid:
+      theme: neutral
+      securityLevel: 'loose'
+  # typst:
+  #   keep-typ: true
+  #   papersize: a4
+  #   toc: true
+  #   number-depth: 2
+  #   section-numbering: 1.1.a
+  #   columns: 1
+  #   default-image-extension: png
+  #   mermaid:
+  #     theme: neutral
+  #   logo: 
+  #     width: 1in
+  #     location: right-top
+  #     padding-right: 0.5in
+  #     padding-top: 0.25in
+  #     alt: Alternate alternate text
+      
+  # pdf:
+  #   default-image-extension: png
+  #   mermaid:
+  #     theme: neutral
+
+execute:
+  echo: false
+
+jupyter: python3

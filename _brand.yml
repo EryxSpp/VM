@@ -1,0 +1,20 @@
+logo: 
+  large: _static/tree-512.png
+  medium: _static/tree-256.png
+  small: _static/tree-64.png
+typography:
+  fonts:
+    - family: Roboto   
+      source: google
+    - family: Roboto Mono
+      source: google
+  base: Roboto   
+  headings: Roboto   
+  link:
+    decoration: underline
+  monospace: Fira Code
+  monospace-inline:
+    color: "#222222"
+    background-color: "#ddeaf1" # or use a named color from `color`
+  monospace-block: 
+    background-color: "#eef4f8"
