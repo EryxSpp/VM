@@ -42,7 +42,7 @@ format:
     toc: true
     page-layout: full
     code-fold: show
-    mermaid-format: svg
+    #mermaid-format: png
     mermaid:
       theme: neutral
       securityLevel: 'loose'
