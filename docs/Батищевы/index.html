@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-page-right" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -164,18 +164,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="column-body">
 <div class="cell" data-fig-width="30%" data-layout-align="default">
 <div class="cell-output-display">
 <p>::::{#Генеалогическое древо Батищевых}</p>
 <div>
 <pre class="mermaid mermaid-js" data-label="Генеалогическое древо Батищевых">flowchart TD
-
-  S [Сургучёвы] --&gt; В (Антонина Яковлевна Батищева /Сургучева/ )
-  A{{Василий&nbsp;Иванович Батищев}} --"Брак" --&gt; B
+  A{{Василий&nbsp;Иванович Батищев}} --"Брак" --&gt; B(Антонина Яковлевна Батищева /Сургучева/)
+  T1([Сургучевы]) --&gt; B
   B --&gt; C(Галина Васильевна)
-  B --&gt; D(Екатерина Васильевна)
-  B --&gt; E(Надежда Васильевна)    
+  B --&gt; D(Екатерина Васильевна Хребтова /Батищева/)
+  B --&gt; E(Надежда Васильевна)
+  D --&gt; T2([Хребтовы])
   click A "/Батищевы/Василий_Иванович/index.html" "Василий\nИванович"
   click B "/Батищевы/Антонина_Яковлевна/index.html" "Антонина\nЯковлевна"
   click C "/Батищевы/Галина_Васильевна/index.html" "Галина\nВасильевна"
@@ -186,8 +185,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-</div>
-<p>::: - <a href="../Батищевы/Василий_Иванович/index.qmd">Василий Иванович</a>, - <a href="../Батищевы/Антонина_Яковлевна/index.html">Антонина Яковлевна</a>, - <a href="../Батищевы/Галина_Васильевна/index.qd">Галина Васильевна</a>, - <a href="../Батищевы/Екатерина_Васильевна/index.html">Екатерина Васильевна</a>, - <a href="../Батищевы/Надежда_Васильевна/index.qmd">Надежда Васильевна</a></p>
+<p>::::::</p>
+<ul>
+<li><a href="../Батищевы/Василий_Иванович/index.qmd">Василий Иванович</a>,</li>
+<li><a href="../Батищевы/Антонина_Яковлевна/index.html">Антонина Яковлевна</a>,</li>
+<li><a href="../Батищевы/Галина_Васильевна/index.qd">Галина Васильевна</a>,</li>
+<li><a href="../Батищевы/Екатерина_Васильевна/index.html">Екатерина Васильевна</a>,</li>
+<li><a href="../Батищевы/Надежда_Васильевна/index.qmd">Надежда Васильевна</a></li>
+</ul>
 
 
 
