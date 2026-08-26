@@ -26,7 +26,7 @@ TMA[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="?
 MA[shape=circle, regular=1,style=filled,fillcolor=white,label="?"];
 TMA -> MA;
 XA [shape=diamond,style=filled,label="",height=.1,width=.1] ;
-A [shape=box, regular=1,style=filled,fillcolor=white,label=" Василий \n  Иванович  \n Батищев ", width=1, URL="/VM/Батищевы/Василий_Иванович/index.qmd"];
+A [shape=box, regular=1,style=filled,fillcolor=white,label=" Василий \n  Иванович  \n Батищев ", width=1, URL="//Батищевы/Василий_Иванович/index.qmd"];
 PA -> XA[dir=none,weight=1];
 MA -> XA[dir=none,weight=1];
 XA -> A[weight=1];
