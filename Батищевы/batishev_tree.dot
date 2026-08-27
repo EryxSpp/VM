@@ -8,8 +8,10 @@ edge [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver, w
 #
 mincross = 2.0 ;
 mclimit = 2.0; 
-label = "\n\nГенеалогическое древо Батищевых" ;
+label = "\n\nГенеалогическое древо Батищевых\n\n" ;
+labelloc = "t";
 imagescale = true;
+imagepos = "tl"
 
 TPA[shape=house, fixedsize=true, regular=0,label="Батищевы"];
 TMA[shape=house, fixedsize=true, regular=0,label="?"];
