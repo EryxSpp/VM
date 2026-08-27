@@ -12,8 +12,8 @@ title: "Батищевы"
 digraph Батищевы {
 fontname="Roboto,Helvetica,Arial,sans-serif"
 fontsize=18.0
-node [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver]
-edge [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver]
+node [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver, style=filled, fillcolor=white, width=1, height=0.5, regular=1]
+edge [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver, weight=1]
 
 # page = "8.2677165,11.692913" ;
 #
@@ -22,42 +22,42 @@ mclimit = 2.0;
 label = "Генеалогическое древо Батищевых" ;
 imagescale = true;
 
-TPA[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Батищевы", width=1];
-PA[shape=box, regular=1,style=filled,fillcolor=white,label="?", width=1];
+TPA[shape=house, fixedsize=true, regular=0,label="Батищевы"];
+TMA[shape=house, fixedsize=true, regular=0,label="?"];
+TPB[shape=house, fixedsize=true, regular=0,label="Сургучёвы"];
+TMB[shape=house, fixedsize=true, regular=0,label="Крупские"];
+TC1[shape=house, fixedsize=true, regular=0,label="Бутт"];
+TC2[shape=house, fixedsize=true, regular=0,label="Хребтовы"];
+TC3[shape=house, fixedsize=true, regular=0,label="Ясинчук"];
+PA[shape=box,     label="?"];
+MA[shape=circle,  label="?"];
+PB[shape=box,     label="Яков\nГригорьевич\nСургучёв", width=1];
+MB[shape=circle,  label="Дарья\nМаксимовна\nСургучёва", width=1];
+A [shape=box,     label=" Василий \n  Иванович  \n Батищев ", width=1, URL="//Батищевы/Василий_Иванович/index.qmd", color=blue];
+B [shape=circle,  label="Антонина\nЯковлевна\nБатищева", width=1, URL="//Батищевы/Антонина_Яковлевна/index.qmd", color=blue] ;
+C1 [shape=circle, label="Галина\nВасильевна\nБутт", width=1, URL="//Батищевы/Галина_Васильевна/index.qmd", color=blue] ;
+C2 [shape=circle, label="Екатерина\nВасильевна\nХребтова", width=1, URL="//Батищевы/Екатерина_Васильевна/index.qmd", color=blue] ;
+C3 [shape=circle, label="Надежда\nВасильевна\nЯсинчук", width=1, URL="//Батищевы/Надежда_Васильевна/index.qmd", color=blue] ;
+XA [shape=diamond, label="",height=.1,width=.1] ;
+XB [shape=diamond, label="",height=.1,width=.1] ;
+XC [shape=diamond, label="",height=.1,width=.1] ;
 TPA -> PA;
-TMA[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="?", width=1];
-MA[shape=circle, regular=1,style=filled,fillcolor=white,label="?"];
 TMA -> MA;
-XA [shape=diamond,style=filled,label="",height=.1,width=.1] ;
-A [shape=box, regular=1,style=filled,fillcolor=white,label=" Василий \n  Иванович  \n Батищев ", width=1, URL="//Батищевы/Василий_Иванович/index.qmd"];
-PA -> XA[dir=none,weight=1];
-MA -> XA[dir=none,weight=1];
+PA -> XA[dir=none];
+MA -> XA[dir=none];
 XA -> A[weight=1];
-TPB[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Сургучёвы", width=1];
 TPB -> PB;
-PB[shape=box, regular=1,style=filled,fillcolor=white,label="Яков\nГригорьевич\nСургучёв", width=1];
-TMB[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Крупские", width=1];
-MB[shape=circle, regular=1,style=filled,fillcolor=white,label="Дарья\nМаксимовна\nСургучёва", width=1];
 TMB -> MB;
-XB [shape=diamond,style=filled,label="",height=.1,width=.1] ;
-B [shape=circle, regular=1,style=filled,fillcolor=white,label="Антонина\nЯковлевна\nБатищева", width=1] ;
-PB -> XB[dir=none,weight=1];
-MB -> XB[dir=none,weight=1];
+PB -> XB[dir=none];
+MB -> XB[dir=none];
 XB -> B[weight=1];
-XC [shape=diamond,style=filled,label="",height=.1,width=.1] ;
-A -> XC[dir=none,weight=1];
-B -> XC[dir=none,weight=1];
-C1 [shape=circle, regular=1,style=filled,fillcolor=white,label="Галина\nВасильевна\nБутт", width=1] ;
-C2 [shape=circle, regular=1,style=filled,fillcolor=white,label="Екатерина\nВасильевна\nХребтова", width=1] ;
-C3 [shape=circle, regular=1,style=filled,fillcolor=white,label="Надежда\nВасильевна\nЯсинчук", width=1] ;
+A -> XC[dir=none];
+B -> XC[dir=none];
 XC -> C1;
 XC -> C2;
 XC -> C3;
-TC1[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Бутт", width=1];
 C1 ->TC1;
-TC2[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Хребтовы", width=1];
 C2 ->TC2;
-TC3[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Ясинчук", width=1];
 C3 ->TC3;
 }
 ```
