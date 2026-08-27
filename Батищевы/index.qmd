@@ -20,6 +20,7 @@ mincross = 2.0 ;
 mclimit = 2.0; 
 label = "Генеалогическое древо Батищевых" ;
 labeldistance = 0
+imagesale = true
 
 TPA[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Батищевы", width=1];
 PA[shape=box, regular=1,style=filled,fillcolor=white,label="?", width=1];
