@@ -9,15 +9,17 @@ title: "Батищевы"
 - [Надежда Васильевна Ясинчук (Батищева)](//Батищевы/Надежда_Васильевна/index.qmd)
 
 ```{dot}
-digraph Батищевы           {
+digraph Батищевы {
 fontname="Roboto,Helvetica,Arial,sans-serif"
-node [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=10, color=silver]
-edge [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=10, color=silver]
+node [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver]
+edge [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver]
 
 # page = "8.2677165,11.692913" ;
-ratio = "auto" ;
+#
 mincross = 2.0 ;
+mclimit = 2.0; 
 label = "Генеалогическое древо Батищевых" ;
+labeldistance = 0
 
 TPA[shape=house, fixedsize=true, regular=0,style=filled,fillcolor=white,label="Батищевы", width=1];
 PA[shape=box, regular=1,style=filled,fillcolor=white,label="?", width=1];
