@@ -21,18 +21,14 @@
     "text": "Дата рождения: 20 сентября 1919 г.\n\n\nМесто рождения: Беларусь, Брестская обл., Пружанский р-н, д. Ляхи\n\n\nДата смерти: 24 мая 2009 г.\n\n\nМесто смерти: Эстония, г. Таллин\n\n\nМесто захоронения: Эстония, г. Таллин\n\n\nРодители: Яков Григорьевич Сургучёв (?-?), Дарья Максимовна Сургучёва (Крупская) (1886-1973)\n\n\nБратья и сестры: неизвестно\n\n\nСупруг(а): Василий Иванович Батищев (1915-1967)\n\n\nДети: Галина Васильевна Бутт (Батищева) (1940), Екатерина Васильевна Хребтова (Батищева) (1945), Надежда Васильевна Ясинчук (Батищева) (1946)\n\n\nГенеалогическое древо: Батищевы, Сургучёвы"
   },
   {
-    "objectID": "Батищевы/FAQE.html",
-    "href": "Батищевы/FAQE.html",
-    "title": "Font Awesome Quarto Extension",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Введение",
     "section": "",
-    "text": "This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents. It provides an {{&lt; fa &gt;}} shortcode:\nFor example:\nNote that the icon sets are currently not perfectly interchangeable across formats:"
-  },
-  {
-    "objectID": "Батищевы/FAQE.html#available-icons-reference",
-    "href": "Батищевы/FAQE.html#available-icons-reference",
-    "title": "Font Awesome Quarto Extension",
-    "section": "Available Icons Reference",
-    "text": "Available Icons Reference\nBelow is a comprehensive list of available Font Awesome 6.7.2 icons organized by category.\n\nSolid Icons (Default)\nThese icons work without specifying a group:\n\n\n\n\n\n\n\n\n\n\n\nIcon\nName\nIcon\nName\nIcon\nName\n\n\n\n\n\nhouse\n\nheart\n\nstar\n\n\n\nuser\n\ncheck\n\nxmark\n\n\n\nmagnifying-glass\n\nenvelope\n\nphone\n\n\n\ncalendar\n\nclock\n\nlocation-dot\n\n\n\ncamera\n\nfile\n\nfolder\n\n\n\ntrash\n\ndownload\n\nupload\n\n\n\npencil\n\npen\n\nprint\n\n\n\nshare\n\nlink\n\nlock\n\n\n\nbell\n\ngear\n\nwrench\n\n\n\nplus\n\nminus\n\ncircle-info\n\n\n\ncircle-question\n\ntriangle-exclamation\n\nban\n\n\n\nthumbs-up\n\nthumbs-down\n\ncomment\n\n\n\nbook\n\nbookmark\n\nflag\n\n\n\nglobe\n\ncloud\n\nfire\n\n\n\nbolt\n\nsun\n\nmoon\n\n\n\nmusic\n\nimage\n\nvideo\n\n\n\nshopping-cart\n\ncredit-card\n\ngift\n\n\n\ntruck\n\nplane\n\ncar\n\n\n\nlaptop\n\nmobile\n\ntablet\n\n\n\ndatabase\n\nserver\n\nwifi\n\n\n\n\n\nArrows & Navigation\n\n\n\n\n\n\n\n\n\n\n\nIcon\nName\nIcon\nName\nIcon\nName\n\n\n\n\n\narrow-up\n\narrow-down\n\narrow-left\n\n\n\narrow-right\n\nchevron-up\n\nchevron-down\n\n\n\nchevron-left\n\nchevron-right\n\nangles-up\n\n\n\nangles-down\n\nangles-left\n\nangles-right\n\n\n\ncircle-arrow-up\n\ncircle-arrow-down\n\ncircle-arrow-left\n\n\n\ncircle-arrow-right\n\nrotate\n\nrotate-right\n\n\n\n\n\nUser & People\n\n\n\n\n\n\n\n\n\n\n\nIcon\nName\nIcon\nName\nIcon\nName\n\n\n\n\n\nuser\n\nusers\n\nuser-plus\n\n\n\nuser-minus\n\nuser-check\n\nuser-xmark\n\n\n\nuser-gear\n\nuser-tie\n\nuser-group\n\n\n\nuser-graduate\n\nuser-doctor\n\nuser-nurse\n\n\n\n\n\nCharts & Data\n\n\n\n\n\n\n\n\n\n\n\nIcon\nName\nIcon\nName\nIcon\nName\n\n\n\n\n\nchart-line\n\nchart-bar\n\nchart-pie\n\n\n\nchart-area\n\nchart-column\n\nchart-simple\n\n\n\n\n\nTech & Code\n\n\n\n\n\n\n\n\n\n\n\nIcon\nName\nIcon\nName\nIcon\nName\n\n\n\n\n\ncode\n\nterminal\n\nbug\n\n\n\nlaptop-code\n\ncode-branch\n\ncode-commit\n\n\n\ncode-merge\n\ncode-pull-request\n\ncube\n\n\n\n\n\nBrands (use brands group)\n\n\n\n\n\n\n\n\n\n\n\nIcon\nName\nIcon\nName\nIcon\nName\n\n\n\n\n\ngithub\n\ngitlab\n\ntwitter\n\n\n\nfacebook\n\nlinkedin\n\nyoutube\n\n\n\ninstagram\n\nreddit\n\ndiscord\n\n\n\nslack\n\npython\n\njava\n\n\n\njs\n\nreact\n\nnode-js\n\n\n\ndocker\n\napple\n\nwindows\n\n\n\nlinux\n\nandroid\n\nchrome\n\n\n\nfirefox\n\nmicrosoft\n\ngoogle\n\n\n\n\n\nComplete Icon List\nFor a complete searchable list of all 2,000+ icons, visit the Font Awesome Icon Gallery.\nUsage tips:\n\nMost icons work without a group prefix: {{&lt; fa icon-name &gt;}}\nBrand icons require the brands group: {{&lt; fa brands icon-name &gt;}}\nRegular icons can use the regular group: {{&lt; fa regular icon-name &gt;}}\nSolid icons (default) can optionally use solid group: {{&lt; fa solid icon-name &gt;}}"
+    "text": "Здравствуйте!\n\n\n\n\n\nМеня зовут Владислав Веденеев\nПричудливо складывается жизнь человека – мозаика фактов и событий, дни, как картинки в детском калейдоскопе. Каждый сам по себе и часть семьи и рода. Роды переплетаются между собой, формируя историю…\nНеожиданно осознал, что история рода просто исчезнет, если не зарисовать причудливую картинку, не сохранить для детей и внуков хотя бы те крупицы, которые ещё возможно собрать.\nНе жаль времени, потраченного на поиски, не жаль поделиться…\nПрошу только, не тащите информацию с сайта, а ссылайтесь на неё: информация постоянно обновляется, статьи могут меняться с появлением новых фактов. Не плодите дезинформацию в сети, пожалуйста!\nЕсли Вы нашли себя в списке фамилий или можете помочь информацией об этих людях, прошу присылать письма по адресу ниже. Извините, придётся набрать руками, боты не дремлют!\n\n\n\n\n\nСпасибо!\n\n\n\n\n\n\nПредупреждение\n\n\n\nПроект в активной переработке после буйства мамкиных хакеров…",
+    "crumbs": [
+      "Введение"
+    ]
   },
   {
     "objectID": "fn.html",
@@ -582,16 +578,6 @@
     "text": "Яфа\n\nАлександр Фёдорович,\nСофья Петровна,\nЗинаида Александровна,\nАлександр Александрович,\nНина Александровна,\nОльга Александровна,\nКонстантин Александрович.",
     "crumbs": [
       "Наши фамилии"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Введение",
-    "section": "",
-    "text": "Здравствуйте!\n\n\n\n\n\nМеня зовут Владислав Веденеев\nПричудливо складывается жизнь человека – мозаика фактов и событий, дни, как картинки в детском калейдоскопе. Каждый сам по себе и часть семьи и рода. Роды переплетаются между собой, формируя историю…\nНеожиданно осознал, что история рода просто исчезнет, если не зарисовать причудливую картинку, не сохранить для детей и внуков хотя бы те крупицы, которые ещё возможно собрать.\nНе жаль времени, потраченного на поиски, не жаль поделиться…\nПрошу только, не тащите информацию с сайта, а ссылайтесь на неё: информация постоянно обновляется, статьи могут меняться с появлением новых фактов. Не плодите дезинформацию в сети, пожалуйста!\nЕсли Вы нашли себя в списке фамилий или можете помочь информацией об этих людях, прошу присылать письма по адресу ниже. Извините, придётся набрать руками, боты не дремлют!\n\n\n\n\n\nСпасибо!\n\n\n\n\n\n\nПредупреждение\n\n\n\nПроект в активной переработке после буйства мамкиных хакеров…",
-    "crumbs": [
-      "Введение"
     ]
   },
   {
