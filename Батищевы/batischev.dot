@@ -1,8 +1,13 @@
+:::{ .img.left-image}
+
+```{dot}
+// file: batishev_tree.dot
+// fig-responsive: false
 digraph Батищевы {
 fontname="Roboto,Helvetica,Arial,sans-serif"
 fontsize=14.0
 
-node [width=.75, height=.5, fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver, style=filled, fillcolor=white, width=1, height=0.5, regular=1]
+node [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver, style=filled, fillcolor=white, width=.75, height=0.5, regular=1]
 edge [fontname="Roboto,Helvetica,Arial,sans-serif", fontsize=12, color=silver, weight=1]
 
 //page = "1.,3." ;
@@ -53,3 +58,6 @@ C1 ->TC1;
 C2 ->TC2;
 C3 ->TC3;
 }
+```
+:::
+

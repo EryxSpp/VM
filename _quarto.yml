@@ -6,6 +6,8 @@ project:
   #  browser: false
   render:
     - "*.qmd"
+extensions:
+  fontawesome: true
 website:
   title: "Записки домашнего родослова"
   # subtitle: "Возвращая из забвения, дарю бессмертие…"

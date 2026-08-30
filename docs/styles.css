@@ -1,2 +1,7 @@
 /* css styles */
 .margin-image {border-radius: 25px;}
+.img.left-image {
+  float: left;
+  /* optional: добавить отступы, чтобы текст не касался картинки */
+  padding: 0 20px 20px 0;
+}
