@@ -62,5 +62,5 @@ flowchart TB
     click C1 "/VM/Батищевы/Галина_Васильевна/index.html"
     click C2 "/VM/Батищевы/Екатерина_Васильевна/index.html"
     click C3 "/VM/Батищевы/Надежда_Васильевна/index.html"
-    click TC2 "VM/Хребтовы/index.html"
+    click TC2 "/VM/Хребтовы/index.html"
 ```     

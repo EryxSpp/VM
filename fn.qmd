@@ -357,7 +357,7 @@ title: "Наши фамилии"
 - Татьяна Васильевна
 
 ## Хребтовы
-- [Анатолий Иванович](index.php?option=com_content&view=article&id=37:lkhrebtovanativ&catid=9:nashi-lyudi&Itemid=104),
+- [Анатолий Иванович](/Хребтовы/index.qmd),
 - [Агния Ивановна](index.php?option=com_content&view=article&id=31:khrebtovaagiv&catid=9:nashi-lyudi&Itemid=104),
 - [Владимир Анатольевич](index.php?option=com_content&view=article&id=35:khrebtovlvanat&catid=9:nashi-lyudi&Itemid=104),
 - [Екатерина Васильевна](index.php?option=com_content&view=article&id=36:khrebtovaekatbas&catid=9:nashi-lyudi&Itemid=104),

@@ -31,8 +31,9 @@ website:
       # - part: "Фамилии"
       #   href: 
       - fn.qmd
-        # contents:
-        # - Батищевы/index.qmd
+      #  contents:
+      #    - Батищевы/index.qmd
+      #    - Хребтовы/index.qmd
 
 format:
   html:

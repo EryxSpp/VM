@@ -11,6 +11,7 @@ flowchart TB
     classDef F fill:MistyRose
     classDef M fill:AliceBlue
     classDef X fill:White
+    
     PPA(["Хребтовы"]) -.->PA("--- ? ---"):::M -->X1(( )):::X
     PMA(["--- ? ---"])-.->MA("--- ? ---"):::F -->X1
     X1-->A1("Любовь
@@ -41,5 +42,7 @@ flowchart TB
        Хребтов
         
        1946"):::M
+
+    click A "/VM/Хребтовы/Анатолий_Иванович/index.html"
 
 ```
