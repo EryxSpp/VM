@@ -3,3 +3,4 @@
 /_book/
 
 **/*.quarto_ipynb
+**/*.txt

@@ -12,7 +12,7 @@ typography:
   headings: Roboto   
   link:
     decoration: underline
-  monospace: Fira Code
+  monospace: Roboto Mono
   monospace-inline:
     color: "#222222"
     background-color: "#ddeaf1" # or use a named color from `color`

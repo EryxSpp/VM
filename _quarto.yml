@@ -14,7 +14,7 @@ website:
   # author: "Владислав Веденеев"
   favicon: _static/favicon.ico
   page-footer:
-    right: "Copyright 2026, Владислав Веденеев"   
+    right: "© 2026, В.Д. Веденеев, Д.Д. Саякин"   
     background: light
   # navbar:
   #   left:
@@ -48,7 +48,7 @@ format:
     #mermaid-format: png
     mermaid:
       theme: neutral
-      securityLevel: 'loose'
+  #    securityLevel: 'loose'
   # typst:
   #   keep-typ: true
   #   papersize: a4
