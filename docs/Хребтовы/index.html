@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Батищевы – Записки домашнего родослова</title>
+<title>index – Записки домашнего родослова</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,10 +78,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Поиск"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -96,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Переключить боковую навигацию" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Батищевы</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Хребтовы</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Переключить боковую навигацию" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Поиск" onclick="window.quartoOpenSearch();">
@@ -147,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Батищевы</h1>
+<h1 class="title">Хребтовы</h1>
 </div>
 
 
@@ -166,75 +162,43 @@ ul.task-list li input[type="checkbox"] {
 
 <hr>
 <ul>
-<li><a href="../Батищевы/Василий_Иванович/index.html">Василий Иванович Батищев</a>,</li>
-<li><a href="../Батищевы/Антонина_Яковлевна/index.html">Антонина Яковлевна Батищева (Сургучева)</a>,</li>
-<li><a href="../Батищевы/Галина_Васильевна/index.html">Галина Васильевна Бутт (Батищева)</a>,</li>
-<li><a href="../Батищевы/Екатерина_Васильевна/index.html">Екатерина Васильевна Хребтова (Батищева)</a>,</li>
-<li><a href="../Батищевы/Надежда_Васильевна/index.html">Надежда Васильевна Ясинчук (Батищева)</a></li>
+<li><a href="../Хребтовы/Анатолий_Иванович">Анатолий Иванович Хребтов</a></li>
 </ul>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TB
+<pre class="{mermaid}"><code>flowchart TB
     classDef F fill:MistyRose
     classDef M fill:AliceBlue
     classDef X fill:White
-    PPA(["Батищевы"]) -.-&gt;PA("--- ? ---"):::M --&gt;X1(( )):::X
+    PPA(["Хребтовы"]) -.-&gt;PA("--- ? ---"):::M --&gt;X1(( )):::X
     PMA(["--- ? ---"])-.-&gt;MA("--- ? ---"):::F --&gt;X1
-    PPB(["Сургучевы"]) -.-&gt;PB("Яков
-                               Григорьевич
-                               Сургучёв
-                               &nbsp;
-                               ????-????"):::M --&gt;X2(( )):::X
-    PMB(["Крупские"]) -.-&gt;MB("Дарья
-                              Максимовна
-                              Сургучёва
-                              (Крупская)
-                              ????—????"):::F --&gt;X2
-    X1--&gt;A("Василий
+    X1--&gt;A1("Любовь
+             Ивановна
+             Хребтова"):::F
+    X1--&gt;A2("Нина
+             Ивановна
+             Хребтова"):::F
+    X1--&gt;A3("Лидия
+             Ивановна
+             Хребтова"):::F
+    X1--&gt;A4("Юрий
+             Иванович
+             Хребтов"):::M
+    X1--&gt;A("Анатолий
             Иванович
-            Батищев
+            Хребтов
             &nbsp;
-            1915—1967"):::M --&gt; X3(( )):::X
-    X2--&gt;B("Антонина
-            Яковлевна
-            Батищева
-            (Сургучева)
-            1919—2009"):::F --&gt;X3
-    X3--&gt;C1("Галина
-             Васильевна
-             Бутт
-             (Батищева)
-             1940"):::F
-    X3--&gt;C2("Екатерина
-             Васильевна
-             Хребтова
-             (Батищева)
-             1945"):::F
-    X3--&gt;C3("Надежда
-             Васильевна
-             Ясинчук
-             (Батищева)
-             1946"):::F
-    C1-.-&gt;TC1(["Бутт"])
-    C2-.-&gt;TC2(["Хребтовы"])
-    C3-.-&gt;TC3(["Ясинчук"])
-
-
-    click A "/VM/Батищевы/Василий_Иванович/index.html"
-    click B "/VM/Батищевы/Антонина_Яковлевна/index.html"
-    click C1 "/VM/Батищевы/Галина_Васильевна/index.html"
-    click C2 "/VM/Батищевы/Екатерина_Васильевна/index.html"
-    click C3 "/VM/Батищевы/Надежда_Васильевна/index.html"
-    click TC2 "VM/Хребтовы/index.html"
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+            1921—1972"):::M --&gt; X3(( )):::X
+    В("Агния
+       Ивановна
+       Хребтова
+       (Беляева)
+       1922-2017"):::F --&gt; X3
+    X3 --&gt; C
+    C("Владимир
+       Анатольевич
+       Хребтов
+       &nbsp;
+       1946"):::M
+</code></pre>
 
 
 
