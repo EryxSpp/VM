@@ -356,13 +356,13 @@ title: "Наши фамилии"
 - Анатолий Васильевич,
 - Татьяна Васильевна
 
-## Хребтовы
-- [Анатолий Иванович](/Хребтовы/index.qmd),
-- [Агния Ивановна](index.php?option=com_content&view=article&id=31:khrebtovaagiv&catid=9:nashi-lyudi&Itemid=104),
-- [Владимир Анатольевич](index.php?option=com_content&view=article&id=35:khrebtovlvanat&catid=9:nashi-lyudi&Itemid=104),
-- [Екатерина Васильевна](index.php?option=com_content&view=article&id=36:khrebtovaekatbas&catid=9:nashi-lyudi&Itemid=104),
-- [Агния Владимировна](index.php?option=com_content&view=article&id=23:lyaskovskayaagvl&catid=9:nashi-lyudi&Itemid=104),
-- [Наталья Владимировна](index.php?option=com_content&view=article&id=32:khrebtovanatvl&catid=9:nashi-lyudi&Itemid=104)
+## [Хребтовы](/Хребтовы/index.qmd)
+- [Анатолий Иванович](/Хребтовы/Анатолий_Иванович/index.qmd),
+- [Агния Ивановна](/Хребтовы/Агния_Ивановна/index.qmd) 31,
+- [Владимир Анатольевич](/Хребтовы/Владимир_Анатольевич/index.qmd) 35,
+- [Екатерина Васильевна](/Хребтовы/Екатерина_Васильевна/index.qmd) 36,
+- [Агния Владимировна](/Хребтовы/Агния_Владимировна/index.qmd) 23,
+- [Наталья Владимировна](/Хребтовы/Наталья_Владимировна/index.qmd) 32
 
 ## Чекомасовы
 - Татьяна Васильевна,
