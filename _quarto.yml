@@ -28,12 +28,11 @@ website:
     background: light
     contents:
       - index.qmd 
-      # - part: "Фамилии"
-      #   href: 
       - fn.qmd
       #  contents:
       #    - Батищевы/index.qmd
       #    - Хребтовы/index.qmd
+      - dates.qmd
 
 format:
   html:
@@ -45,7 +44,6 @@ format:
     toc: true
     page-layout: full
     code-fold: show
-    #mermaid-format: png
     mermaid:
       theme: neutral
   #    securityLevel: 'loose'
