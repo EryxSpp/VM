@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /site-libs/
+Disallow: /_static/
