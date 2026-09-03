@@ -101,16 +101,16 @@ title: "Наши фамилии"
 - [Юлия Сергеевна](/Веригины/Юлия_Сергеевна/) 6
 - Мария Ивановна
 - [Надежда Алексеевна](/Веригины/Надежда_Алексеевна/) 7
-- [Владимир Алексеевич](index.php?option=com_content&view=article&id=5:veriginvlal&catid=9:nashi-lyudi&Itemid=104)
-- [Зинаида Александровна](index.php?option=com_content&view=article&id=8:veriginazinalex&catid=9:nashi-lyudi&Itemid=104)
-- [Галина Владимировна](index.php?option=com_content&view=article&id=50:veriginagalvl&catid=9:nashi-lyudi&Itemid=104)
-- [Кира Владимировна](index.php?option=com_content&view=article&id=11:veriginakirvl&catid=9:nashi-lyudi&Itemid=104)
+- [Владимир Алексеевич](/Веригины/Владимир_Алексеевич) 5
+- [Зинаида Александровна](/Веригины/Зинаида_Александровна) 8
+- [Галина Владимировна](/Веригины/Галина_Владимировна) 50
+- [Кира Владимировна](/Веригины/Кира_Владимировна) 11
 - Юлия Алексеевна
 - Мария Алексеевна
 - Сергей Алексеевич
-- [Василий Алексеевич](index.php?option=com_content&view=article&id=9:veriginvasal&catid=9:nashi-lyudi&Itemid=104)
-- [Софья Алексеевна](index.php?option=com_content&view=article&id=10:levykinasofal&catid=9:nashi-lyudi&Itemid=104)
-- [Виктор Иванович](index.php?option=com_content&view=article&id=44:veriginviktiv&catid=9:nashi-lyudi&Itemid=104)
+- [Василий Алексеевич](/Веригины/Василий_Алексеевич) 9
+- [Софья Алексеевна](/Веригины/Софья_Алексеевна) 10
+- [Виктор Иванович](/Веригины/Виктор_Иванович) 44
 - Елизавета Самсоновна
 - Варвара Викторовна
 - Екатерина Викторовна
