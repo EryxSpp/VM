@@ -11,13 +11,13 @@ title: "Батищевы"
 - [Надежда Васильевна Ясинчук (Батищева)](//Батищевы/Надежда_Васильевна/index.qmd)
 
 ```{mermaid}
-flowchart TB
+flowchart LR
     classDef F fill:MistyRose
     classDef M fill:AliceBlue
     classDef X fill:White
     PPA(["Батищевы"]) -.->PA("--- ? ---"):::M -->X1(( )):::X
     PMA(["--- ? ---"])-.->MA("--- ? ---"):::F -->X1
-    PPB(["Сургучевы"]) -.->PB("Яков
+    PPB(["Сургучёвы"]) -.->PB("Яков
                                Григорьевич
                                Сургучёв
                                 
