@@ -219,16 +219,16 @@ title: "Наши фамилии"
 - Татьяна Николаевна
 - Лидия Александровна
 
-## Нестеровичи
+## Нестерович
 - Иван Францевич
 - Сергей Францевич
-- [Евфимия Францевна](index.php?option=com_content&view=article&id=16:nesterovichevffr&catid=9:nashi-lyudi&Itemid=104)
-- [Александр Алексеевич](index.php?option=com_content&view=article&id=13:nesterovichalexal&catid=9:nashi-lyudi&Itemid=104)
+- [Евфимия Францевна](/Нестерович/Евфимия_Францевна) 16
+- [Александр Алексеевич](/Нестерович/Александр_Алексеевич) 13
 - Татьяна Алексеевна
 - Владимир Алексеевич
 - Елена Владимировна
-- [Людмила Александровна](index.php?option=com_content&view=article&id=14:sayakinlyudalex&catid=9:nashi-lyudi&Itemid=104)
-- [Ирина Александровна](index.php?option=com_content&view=article&id=15:komarovairalex&catid=9:nashi-lyudi&Itemid=104)
+- [Людмила Александровна](/Нестерович/Людмила_Александровна) 14
+- [Ирина Александровна](/Нестерович/Ирина_Александровна) 15
 - Валентина Владимировна
 - Владимир Александрович
 - Галина Петровна
@@ -239,9 +239,9 @@ title: "Наши фамилии"
 - Александра Сергеевна
 - Александр Евгеньевич
 - Екатерина Александровна
-- [Михаил Евгеньевич](index.php?option=com_content&view=article&id=38:nesterovichmihevg&catid=9:nashi-lyudi&Itemid=104)
+- [Михаил Евгеньевич](/Нестерович/Михаил_Евгеньевич) 38
 - Ольга Фёдоровна
-- [Михаил Михайлович](index.php?option=com_content&view=article&id=39:nesterovichmikhmikh&catid=9:nashi-lyudi&Itemid=104)
+- [Михаил Михайлович](/Нестерович/Михаил Михайлович) 39
 - Галина Евгеньевна
 
 ## Николаевы
