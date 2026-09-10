@@ -1,10 +1,8 @@
-```{python}
-import os
+---
+title: Александр Алексеевич Нестерович
+---
+----
 
-dn = os.getcwd().split("\\")[-2:]
-title = " ".join(dn).replace("_", " ")
-```
-
-::: {.callout-warning title="`{python} title`"}
+::: {.callout-warning title="Александр Алексеевич Нестерович"}
 Проект в активной переработке. Страница не готова
 :::
