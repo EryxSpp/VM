@@ -10,16 +10,23 @@ extensions:
   fontawesome: true
 website:
   title: "Записки домашнего родослова"
+  site-url: "https://eryxspp.github.io/VM/"
   # subtitle: "Возвращая из забвения, дарю бессмертие…"
   # author: "Владислав Веденеев"
+  search:
+    location: navbar
+    type: overlay
+  # announcement: 
+  #   content: "Возвращая из забвения, дарю бессмертие…" 
+  #   position: below-navbar 
   favicon: _static/favicon.ico
   page-footer:
     right: "© 2026, В.Д. Веденеев, Д.Д. Саякин"   
     background: light
-  # navbar:
-  #   left:
-  #   - href: index.qmd
-  #     text: Введение
+  navbar:
+    left:
+    - index.qmd
+    #  text: Введение
   #     - href: Батищевы/index.qmd
   #       text: Батищевы
 #      - about.qmd
