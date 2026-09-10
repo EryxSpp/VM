@@ -1,7 +1,7 @@
 logo: 
-  large: _static/tree-512.png
-  medium: _static/tree-256.png
-  small: _static/tree-64.png
+  large: _static/tree-512-4.png
+  medium: _static/tree-256-4.png
+  small: _static/tree-64-4.png
 typography:
   fonts:
     - family: Roboto   
