@@ -6,7 +6,7 @@ title: Хребтовы
 - [Анатолий Иванович Хребтов](//Хребтовы/Анатолий_Иванович/index.qmd)
 
 ```{mermaid}
-flowchart TB
+flowchart LR
     classDef F fill:MistyRose
     classDef M fill:AliceBlue
     classDef X fill:White

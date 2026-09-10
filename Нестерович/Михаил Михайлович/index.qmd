@@ -1,0 +1,10 @@
+```{python}
+import os
+
+dn = os.getcwd().split("\\")[-2:]
+title = " ".join(dn).replace("_", " ")
+```
+
+::: {.callout-warning title="`{python} title`"}
+Проект в активной переработке. Страница не готова
+:::

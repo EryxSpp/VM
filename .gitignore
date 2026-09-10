@@ -1,6 +1,7 @@
 /.quarto/
 /_site/
 /_book/
+/_proto/
 
 **/*.quarto_ipynb
 **/*.txt
