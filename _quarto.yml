@@ -25,8 +25,20 @@ website:
     background: light
   navbar:
     left:
-    - index.qmd
-    #  text: Введение
+    - icon: house
+      href: /
+    - icon: list-check
+      text: " "
+      href: fn.qmd
+    - icon: calendar2-check
+      text: " "
+      href: dates.qmd
+    - icon: file-earmark-richtext
+      text: Статьи
+      menu: 
+      - text: Легенда №6 по улице Щепкина
+        href: Статьи/Легенда № 6/
+      
   #     - href: Батищевы/index.qmd
   #       text: Батищевы
 #      - about.qmd
@@ -34,12 +46,20 @@ website:
     style: floating
     background: light
     contents:
-      - index.qmd 
-      - fn.qmd
-      #  contents:
-      #    - Батищевы/index.qmd
-      #    - Хребтовы/index.qmd
-      - dates.qmd
+      - icon: house
+        text: Об этом сайте
+        href: index.qmd
+      - icon: list-check
+        text: Фамилии
+        href: fn.qmd
+      - icon: calendar2-check
+        text: Даты
+        href: dates.qmd
+      - section: Статьи
+        icon: file-earmark-richtext
+        contents:
+          - text: Легенда №6 по улице Щепкина
+            href: Статьи/Легенда № 6/
 
 format:
   html:
