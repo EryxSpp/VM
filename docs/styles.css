@@ -5,3 +5,5 @@
   /* optional: добавить отступы, чтобы текст не касался картинки */
   padding: 0 20px 20px 0;
 }
+.centered {text-align: center;}
+figcaption {text-align: center;}
