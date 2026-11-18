@@ -3,7 +3,7 @@ title: Страница потерялась
 ---
 ----
 ::: {.column-margin}
-![](/_static/images/confuze.png){height=447px}
+![](/_static/images/confuze.png){height=200px}
 :::
 
 Беда… Страница, которую Вы хотите увидеть, куда-то подевалась.
