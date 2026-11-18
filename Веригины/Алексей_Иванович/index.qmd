@@ -1,7 +1,6 @@
 ---
 title: Алексей Иванович Веригин
-language:
-  section-title-footnotes: "Источники"
+section-title-footnotes: "Источники"
 ---
 ----
 
