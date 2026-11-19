@@ -52,6 +52,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-73c4dddfa7e141f300751f7224a5ffa5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-8d7c6b6464c98582fa47af49a05326c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-73c4dddfa7e141f300751f7224a5ffa5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -256,19 +259,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <hr>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Предупреждение</span>Виктор Иванович Веригин
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Проект в активной переработке. Страница не готова</p>
-</div>
-</div>
 <p>Действительный статский советник</p>
 <p>Архитектор Московского попечительского комитета о бедных, Братолюбивого общества снабжения неимущих квартирами, Московского городского общества взаимного от огня страхования</p>
 <dl>
@@ -349,12 +339,19 @@ ul.task-list li input[type="checkbox"] {
 </dd>
 </dl>
 <hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="VeriginVI_MiusskoeKladbische_20261119_201426.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Могила В.И.Веригина и Е.С.Веригиной на Миусском кладбище в Москве"><img src="VeriginVI_MiusskoeKladbische_20261119_201426.jpg" title="Могила В.И.Веригина и Е.С.Веригиной на Миусском кладбище в Москве" class="img-fluid figure-img" width="200" alt="Могила В.И.Веригина и Е.С.Веригиной на Миусском кладбище в Москве"></a></p>
+<figcaption>Могила В.И.Веригина и Е.С.Веригиной на Миусском кладбище в Москве</figcaption>
+</figure>
+</div>
+<hr>
 <section id="награды" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="награды">Награды</h2>
 <p>Орден Святого Станислава, II степени</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="../../_static/images/awards/StStanislavII.png" height="157"></p>
+<p><a href="../../_static/images/awards/StStanislavII.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../../_static/images/awards/StStanislavII.png" height="157"></a></p>
 </div></div><dl>
 <dt>Дата:</dt>
 <dd>
@@ -365,7 +362,7 @@ ul.task-list li input[type="checkbox"] {
 «Неделя строителя», №2, 1883&nbsp;г., стр.&nbsp;13
 </dd>
 </dl>
-<p><img src="Stan2-Msg.jpg" class="img-fluid"></p>
+<p><a href="Stan2-Msg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="Stan2-Msg.jpg" class="img-fluid"></a></p>
 <hr>
 </section>
 <section id="образование" class="level2">
@@ -1619,6 +1616,38 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
