@@ -68,7 +68,7 @@ section-title-footnotes: "Источники"
 
 ## Награды
 
-Орден Святого Станислава, III степени
+### Орден Святого Станислава, III степени
 
 ::: {.column-margin}
 ![](/_static/images/awards/StStanislavIII.png){height=157px}

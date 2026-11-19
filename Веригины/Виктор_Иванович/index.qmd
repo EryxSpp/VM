@@ -61,7 +61,7 @@ lightbox: auto
 
 ## Награды
 
-Орден Святого Станислава, III степени
+### Орден Святого Станислава, III степени
 
 ::: {.column-margin}
 ![](/_static/images/awards/StStanislavIII.png){height=157px}
@@ -74,7 +74,7 @@ lightbox: auto
 : ![«Сенатские ведомости», 1809-1917, 1876, №23, с. 2](Stan3-Msg_0.jpg "«Сенатские ведомости», 1809-1917, 1876, №23, с. 2"){.lightbox width=300px}
 
 
-Орден Святого Станислава, II степени
+### Орден Святого Станислава, II степени
 
 ::: {.column-margin}
 ![](/_static/images/awards/StStanislavII.png){height=157px}
@@ -87,7 +87,7 @@ lightbox: auto
 : ![«Неделя строителя», №2, 1883 г., стр. 13](Stan2-Msg_0.jpg "«Неделя строителя», №2, 1883 г., стр. 13"){.lightbox width=300px}
 
 
-Орден Святой Анны, II степени
+### Орден Святой Анны, II степени
 
 ::: {.column-margin}
 ![](/_static/images/awards/AnnaII.png){width=100px}
